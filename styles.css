@@ -1,0 +1,511 @@
+
+/*body logo and welcome massage*/
+
+
+.body-logo {
+    font-family: 'Your Logo Font', sans-serif;
+    font-size: 48px;
+    margin-bottom: 10px;
+    background-color: #f5ca53; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 20px; 
+    border-radius: 305px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* shadow */
+
+}
+
+.welcome-massage{
+    font-family: 'Your Logo Font', 'Times New Roman', Times, serif;
+    font-size: 36px;
+    margin-bottom: 100px;
+    position: relative; 
+    
+}
+
+.body-logo{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+
+.newsletter{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+main {
+    margin-top: 20px; /*margin to move content down */
+    padding: 20px; /* padding for spacing */
+}
+
+
+/* consistent styling for the main content */
+.body-logo {
+    margin-top: 20px; /*  margin to move content down */
+    padding: 20px; /*  padding for spacing */
+    transition: transform 0.3s; /*  transition for smooth effect */
+}
+/************************************************************/
+/*code for play now link*/
+/* Style for the link-button */
+.button-link {
+    display: inline-block;
+    text-decoration: none;
+    position: relative; /* Establish a containing block for pseudo-element */
+    background-color: #f5ca53;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #d9ff00; /* Change background color on hover */
+    transform: scale(1.05); /*  zoom effect on hover */
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.featured-media {
+    height: 400px; /*  initial height */
+    overflow: hidden;
+    transition: height 0.5s ease; /* Smooth transition on height change */
+}
+
+.featured-media-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.zoomable-image {
+    width: auto;
+    height: 100%;
+    transform: scale(0.1); /* Start with a small size */
+    transition: transform 0.5s ease; /* Smooth transition on scale change */
+}
+
+
+.youtube-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /*  the height for the video section */
+    margin-top: 100px; /*  spacing between the images and the video */
+margin-bottom: 100px;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.side-image {
+    float: right; /* Align the image to the right side */
+    margin-top: 10px; /* Adjust the top margin as needed */
+}
+
+.side-image img {
+    width: 150px; 
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* Apply a consistent font for the site description */
+.site-description {
+    font-family: 'Your Heading Font', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Logo styling */
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styling */
+body {
+    font-family: 'Your Body Font', 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #b7cdf5;
+    background-image: url("https://img.freepik.com/free-photo/yellow-pink-dices-colorful-background_23-2148952395.jpg?w=1060&t=st=1691442858~exp=1691443458~hmac=ed44c6bd8b908de77a5b857c7acd7345e5b7773871751359cd0b4247eea1006a"); 
+    background-size: cover; /* Scale the background image to cover the entire body */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-attachment: fixed; /* Keep the background image fixed while scrolling */
+
+}
+
+.body {
+    background-color: white;
+}
+
+/*  consistent font for headings/titles */
+h1{
+    font-family: 'Your Heading Font', 'Times New Roman', Times, serif;
+    font-size: 75px;
+}
+h2, h3 {
+    font-family: 'Your Heading Font', 'Times New Roman', Times, serif;
+}
+
+/*  consistent background color for headers */
+header {
+    background-color: #ddb87f;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    background-image: url("https://img.freepik.com/free-photo/yellow-background-with-border-yellow-dices_23-2148952407.jpg?w=740&t=st=1691442602~exp=1691443202~hmac=5399edc50e61294caf4747c12da628335ef05936a9eb2ea1edfae1919baaf90e");
+    opacity: 0.9;
+}
+
+
+
+.header-shadow {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+
+.index-title {
+    font-size: 75px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+}
+/*consistent footer styling */
+footer {
+    background-color: #ecca6b;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+    margin-top: auto; 
+}
+
+/* consistent styling for navigation links */
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: transform 0.3s; /*  transition for smooth effect */
+}
+
+nav a:hover {
+    transform: scale(1.1); /*  zoom effect on hover */
+}
+
+/*///////////////////////////////////////////////////////////////////////*/
+/* info file*/
+
+.history, .game-rules, .tips-section {
+    background-image: url("https://img.freepik.com/free-vector/colorful-blocks-blank-white-background-vector_53876-67005.jpg?w=826&t=st=1691389940~exp=1691390540~hmac=c5761b6e28414e40dcb7675b06cb746f47bf0dbc51f9e65d44c68f22dc54178d"); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 90px;
+    opacity: 0.8;
+    transform: translateX(-100%);
+    transition: opacity 0.8s ease, transform 1s ease;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////*/
+/* review file*/
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.rate {
+    height: 46px;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+.reviews {
+    
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px 0;  
+    color: rgb(80, 41, 8); 
+}
+
+.reviews{
+    background-color: #fffdc1a5;
+    opacity: 2;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    background-color: #fffdc1a5;
+    opacity: 2;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 10px 16px;
+    flex-grow: 1;
+}
+
+.avatar-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+/*/////////////////////////////////////////////////////////////////////*/
+/* background to the About section */
+.about {
+    background-color: #fffdc1a5; 
+    padding: 50px 0; 
+    color: rgb(87, 22, 22); 
+    
+}
+
+/*////////////////////////////////////////////////////////////////////
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/*  background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* style for all buttons */
+button {
+  background-color: #2205c8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+.remember-checkbox {
+    margin-bottom: 15px;
+}
+
+.terms-privacy {
+    font-size: 14px;
+    color: #333;
+}
+
+.terms-link {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.terms-link:hover {
+    text-decoration: underline;
+}
+
+
+.signup-button {
+    width: auto;
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+    background-color: #0071cc;
+}
+
+
+.buta{
+    background-color: #0071cc;
+    color: white;
+    padding: 14px 2px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+}
+
